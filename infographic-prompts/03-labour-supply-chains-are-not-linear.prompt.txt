@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Labour Supply Chains Are Not Linear.”
+
+Subtitle: “Workforce relationships form a network of responsibility.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Use agriculture and horticulture examples such as growers, contractors and seasonal workers, while keeping the model globally transferable.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm, rigorous and institutional editorial style.
+- Flat vector geometry, thin relationship lines, generous whitespace and mobile-readable typography.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, trademarks, partner names or invented statistics.
+
+Core message: a product chain may be shown as a sequence, but workforce relationships branch, overlap and change. Governance must therefore represent relationships rather than assume a single straight line.
+
+Visual structure:
+1. Left panel: a simple linear product flow.
+2. Right panel: a networked workforce system with neutral nodes for workers, employers, contractors, labour providers, subcontractors, production sites and oversight bodies.
+3. Three callouts: “Relationship visibility — who is connected to whom?”, “Worker attribution — which worker belongs to which relationship?”, and “Event traceability — can a breach be isolated?”
+4. A bottom panel showing the design response: map relationships, record meaningful events, preserve authority and make responsibility legible.
+
+Use a network diagram only as a structural explanation, not as decorative connected dots. Avoid literal chains, maps, globes, surveillance imagery and generic technology branding.
+
+Footer line: “The workforce system is a network. Assurance must be designed to travel across it.”
+
+Ensure all text is exact, legible and spelled correctly.

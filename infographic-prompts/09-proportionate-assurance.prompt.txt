@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Assurance Must Be Proportionate.”
+
+Subtitle: “Good governance matches information, access and scrutiny to purpose and risk.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm, neutral and institutionally credible editorial style.
+- Flat vector-like geometry, balanced scales of emphasis, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, trademarks, partner names, invented statistics or legal conclusions.
+
+Core message: transparency is not a justification for unlimited collection or universal access. Assurance should be bounded by role, purpose, consent, delegated authority, risk and applicable obligations.
+
+Visual structure:
+1. A balanced composition with six considerations: “Purpose”, “Role”, “Risk”, “Consent”, “Authority”, “Retention”.
+2. A three-level pathway: “Basic confirmation”, “Relationship assurance”, “Enhanced investigation”, showing increasing evidence and access only where justified.
+3. A boundary panel: “Visible enough to govern. Limited enough to respect people.”
+4. A practical decision sequence: define the question, identify the authorised user, request the minimum necessary claim, verify at source, record the decision and review access.
+
+Avoid a literal balance-scale cliché as the dominant image, surveillance imagery, a generic shield or claims that privacy alone guarantees safety. Keep the message about disciplined governance and proportionality.
+
+Footer line: “Trust depends not only on what can be seen, but on who may see it and why.”
+
+Ensure all text is exact, legible and spelled correctly.

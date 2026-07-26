@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“From Signals to Patterns.”
+
+Subtitle: “Individual events matter. Patterns determine confidence.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; clean editorial systems-thinking style.
+- Flat vector geometry, restrained data visualisation, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A. Use red sparingly for an unresolved concern.
+- No logos, trademarks, partner names or invented percentages.
+
+Core message: a single agreement, attestation or complaint is a signal. Repeated and corroborated signals across relationships and time can reveal patterns that support proportionate human judgement and governance.
+
+Visual structure:
+1. A horizontal sequence: “Single signals → Correlated signals → Behavioural patterns → Assurance insight”.
+2. Signal examples: employment agreement, right-to-work confirmation, worker feedback, payroll reconciliation, contractor declaration, audit finding and regulatory confirmation.
+3. Show two pattern states: a consistent pattern that supports confidence, and a contradictory or incomplete pattern that requires attention.
+4. A bottom panel explaining that pattern recognition must preserve context, uncertainty, worker voice and human decision-making.
+
+Use abstract dots, lines and small event markers only to explain accumulation over time. Do not invent scores, weights or automated decisions. Avoid surveillance imagery and the visual language of predictive policing.
+
+Footer line: “Assurance grows when signals are connected, contextualised and open to challenge.”
+
+Ensure all text is exact, legible and spelled correctly.

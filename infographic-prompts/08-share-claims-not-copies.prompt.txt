@@ -1,0 +1,30 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Share Claims, Not Copies.”
+
+Subtitle: “Privacy-resilient assurance can answer trusted questions without duplicating sensitive records.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm, precise and institutional editorial design.
+- Flat vector-like geometry, clear information boundaries, generous whitespace and excellent mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, trademarks, partner names or invented statistics.
+
+Core message: source systems should retain the records they are responsible for. Assurance systems should exchange only the claims, references or authorised answers needed for a legitimate purpose.
+
+Visual structure:
+1. Left panel: “Source records stay where they originate” with employment, identity, payroll and contractor systems shown as separate bounded repositories.
+2. Centre: a restrained transformation from raw records to a verified claim, such as “Employment relationship verified” or “Right to work confirmed”.
+3. Right panel: “Authorised recipient receives the answer needed”, with access, purpose and expiry boundaries.
+4. A five-step pathway: “Claim created → Trust link referenced → Source protected → Authorised verification → Audit trail”.
+5. Bottom contrast: “Collect everything” versus “Ask a precise question”.
+
+Use a lock only as a small supporting privacy symbol, not as the main logo concept. Do not imply that all claims are automatically true or permanent.
+
+Footer line: “Minimum data. Maximum assurance.”
+
+Ensure all text is exact, legible and spelled correctly.

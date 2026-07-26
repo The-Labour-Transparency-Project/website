@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“From Compliance Activity to Assurance Infrastructure.”
+
+Subtitle: “Move from periodic evidence collection to a system that can answer trusted questions.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Start with examples applicable to New Zealand agriculture and horticulture, but make the model sector-neutral.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm institutional editorial design.
+- Flat vector-like geometry, precise alignment, generous whitespace and strong mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, product names, trademarks, partner names or invented statistics.
+
+Core message: compliance activity checks selected evidence at selected moments. Assurance infrastructure creates durable relationships, traceable events, accountable assertions and decision-ready visibility over time.
+
+Visual structure:
+1. Comparison panel: “Compliance activity” with documents, questionnaires, audits and periodic snapshots; “Assurance infrastructure” with relationships, records, verification, patterns and governance decisions.
+2. A five-stage pathway: “Claim → Attestation → Verification → Assertion → Decision”. Give each stage a one-line plain-language explanation.
+3. A maturity path: “Documentation → Visibility → Integration → Infrastructure → Embedded standard”.
+4. Closing panel: show that infrastructure reduces blind spots, clarifies responsibility and supports proportionate action.
+
+Avoid a generic checkmark or shield as the central concept. Do not imply certification, guaranteed compliance or risk elimination.
+
+Footer line: “The goal is not to collect more evidence. It is to build better assurance.”
+
+Ensure all text is exact, legible and spelled correctly.

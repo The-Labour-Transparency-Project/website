@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Workforce Traceability Is Governance Infrastructure.”
+
+Subtitle: “The system that makes relationships, responsibility and risk visible.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Use New Zealand agriculture and horticulture as an initial context while clearly showing global relevance.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; confident, calm and enduring institutional design.
+- Flat vector-like geometry, architectural composition, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, product names, trademarks, partner names or invented statistics.
+
+Core message: workforce traceability is not merely a reporting feature. It is infrastructure that connects people, entities, sites, agreements, events and governance decisions without requiring one organisation to own everything.
+
+Visual structure:
+1. A central architectural “governance layer” linking workers, employers, contractors, labour providers, production sites, records and oversight bodies.
+2. Five functions around it: “Relationship visibility”, “Worker attribution”, “Event traceability”, “Accountability”, “Decision support”.
+3. A maturity path: “Documentation → Visibility → Integration → Infrastructure → Embedded standard”.
+4. A bottom comparison: documentation proves what happened; infrastructure helps prevent blind spots from forming.
+
+Use architectural lines and connected structures, not a literal bridge, globe, chain or technology-platform dashboard. Avoid presenting any particular software or product as the answer.
+
+Footer line: “Infrastructure shapes what an industry can see, govern and improve.”
+
+Ensure all text is exact, legible and spelled correctly.

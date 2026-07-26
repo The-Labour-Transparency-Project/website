@@ -1,0 +1,30 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Containment Is the Practical Value of Visibility.”
+
+Subtitle: “When an incident occurs, defined relationships make response more focused, fair and effective.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Include examples relevant to agriculture and horticulture without limiting the message to those sectors.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm, serious and constructive editorial style.
+- Flat vector-like geometry, clear boundary lines, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A, with red used only for the incident marker.
+- No logos, trademarks, partner names or invented statistics.
+
+Core message: visibility does not eliminate harm or risk. It helps identify the affected relationships, isolate the relevant cohort, assign responsibility and support an appropriate response without treating an entire network as equally exposed.
+
+Visual structure:
+1. Left panel: an incident enters a fragmented workforce system and creates broad uncertainty.
+2. Right panel: the same incident enters a mapped system with defined actors, sites, relationships and time-stamped events; the affected cohort is bounded.
+3. A four-step response: “Identify → Isolate → Investigate → Remedy”.
+4. A worker-centred safeguard panel: protect affected people, preserve due process, communicate clearly and support remedy.
+5. Closing message: containment is a governance capability, not a promise that incidents will never occur.
+
+Avoid disaster imagery, militarised containment metaphors, surveillance cameras, generic shields and blame-oriented visuals. Keep the tone practical and humane.
+
+Footer line: “Better visibility narrows exposure before uncertainty becomes system-wide.”
+
+Ensure all text is exact, legible and spelled correctly.

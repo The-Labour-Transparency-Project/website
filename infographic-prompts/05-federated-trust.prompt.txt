@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Federated Trust: Distributed Participation, Coordinated Assurance.”
+
+Subtitle: “Trust is distributed. Assurance is coordinated.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; calm, rigorous, modern institutional style.
+- Flat vector-like geometry, clear hierarchy, generous whitespace and excellent mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, product names, trademarks, partner names or invented statistics.
+
+Core message: no single participant needs to own all workforce data. Each participant can retain control of source records while sharing authorised claims, attestations, references and signals that enable wider assurance.
+
+Visual structure:
+1. A central ring labelled “Coordinated assurance”. Around it, neutral participant nodes: workers, employers, contractors, labour providers, auditors, regulators, industry bodies and systems of record.
+2. Show that participants retain source records while trusted references or verified claims travel across legitimate relationships.
+3. A four-part explanation: “Source authority”, “Delegated verification”, “Proportional access”, “Shared accountability”.
+4. A comparison strip: “Centralise everything” versus “Coordinate what can be trusted”.
+
+Network lines must show legitimate relationships and information boundaries, not a generic technology network. Do not use literal chains, maps, globes, shields or surveillance imagery.
+
+Footer line: “Federation lets assurance travel without requiring every participant to surrender control.”
+
+Ensure all text is exact, legible and spelled correctly.

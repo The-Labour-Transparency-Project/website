@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Transparency Must Work for Workers.”
+
+Subtitle: “Not just reporting on workers — building voice, agency and remedy into assurance.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Include a subtle New Zealand context without using national symbols or reducing the issue to one sector.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; humane, calm and institutionally credible editorial style.
+- Flat vector-like geometry, simple neutral participant symbols rather than portraits, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, trademarks, partner names or invented statistics.
+
+Core message: labour transparency is legitimate only when workers can understand, influence and challenge the records and decisions that affect them.
+
+Visual structure:
+1. A central circle labelled “Worker agency”, surrounded by six connected principles: “Clear terms”, “Consent and control”, “Safe feedback”, “Grievance and remedy”, “Representation”, “Ability to correct records”.
+2. A comparison panel: “Visibility about workers” versus “Transparency with workers”.
+3. A lifecycle showing how worker voice can enter before, during and after a workforce relationship.
+4. A concluding panel: workers are participants and sources of assurance, not merely data subjects or evidence containers.
+
+Make the design respectful and non-paternalistic. Avoid worker stereotypes, surveillance cameras, literal shields and generic compliance imagery. Do not imply that a digital system replaces representation, collective voice or remedy.
+
+Footer line: “Transparency is stronger when the people represented in the system can be heard within it.”
+
+Ensure all text is exact, legible and spelled correctly.

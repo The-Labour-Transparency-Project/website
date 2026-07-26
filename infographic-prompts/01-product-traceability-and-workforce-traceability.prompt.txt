@@ -1,0 +1,29 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Product Traceability Is Mature. Workforce Traceability Is Not.”
+
+Subtitle: “The next governance gap in responsible supply chains.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Ground the examples initially in New Zealand agriculture and horticulture, while making the message globally transferable.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory or white background; calm institutional editorial design.
+- Flat vector-like geometry, clean typography, generous whitespace and strong mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, product names, trademarks, partner names or invented statistics.
+
+Core message: industries have engineered increasingly precise product traceability, while the workforce relationships behind production often remain fragmented, retrospective and difficult to verify.
+
+Visual structure:
+1. Hero comparison: a clear, orderly product pathway from inputs to production to distribution, beside a fragmented workforce pathway involving employers, contractors, labour providers, subcontractors and workers.
+2. Three questions beneath the workforce side: “Who is connected to whom?”, “Where is each worker attributed?”, and “Can an event be traced and contained?”
+3. A transition panel: “From documentation to infrastructure.” Show that workforce traceability requires connected relationships, attributable records, event-level visibility and accountable governance.
+4. Closing panel: “The next stage of supply-chain governance includes the people who make production possible.”
+
+Use small abstract nodes and relationship lines only where they clarify the system. Do not use literal chains, a globe, a shield, surveillance imagery or worker stereotypes. Keep people represented as simple neutral participant symbols, not portraits.
+
+Footer line: “Products are traceable. The workforces producing them must become visible too.”
+
+Ensure all text is exact, legible and spelled correctly.

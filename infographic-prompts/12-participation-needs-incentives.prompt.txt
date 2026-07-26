@@ -1,0 +1,30 @@
+Use case: editorial infographic.
+
+Create a one-page vertical infographic for The Labour Transparency Project titled:
+“Participation Needs Incentives.”
+
+Subtitle: “A trusted assurance system must create value for every participant, not only demand more information.”
+
+Audience: sponsors, industry participants, regulators, workers’ representatives and researchers. Start with New Zealand agriculture and horticulture examples while making the model relevant to global labour supply chains.
+
+Format and style:
+- 1080 × 1350 px, 4:5 vertical layout.
+- Warm ivory background; optimistic but rigorous institutional editorial design.
+- Flat vector-like geometry, generous whitespace and high mobile readability.
+- Palette: deep navy #102A43, forest green #1F5B52, muted ochre #B58A3B, neutral grey #9A9E9A.
+- No logos, product names, trademarks, partner names or invented statistics.
+
+Core message: participation will not scale through moral pressure or data extraction alone. Each participant needs a clear reason to contribute trusted signals and a fair understanding of what they receive in return.
+
+Visual structure:
+1. A central shared-value circle labelled “Trusted participation”.
+2. Around it, six participant groups: workers, employers, contractors and labour providers, buyers and industry bodies, auditors and assurance providers, regulators and public institutions.
+3. For each, show a concise value: voice and correction, simpler onboarding, less duplication, clearer relationships, better assurance, stronger decision-making.
+4. A participation flywheel: “Contribute → Verify → Use → Learn → Improve → Wider participation”.
+5. A guardrail panel: value must be accompanied by privacy, proportional access, transparency of purpose and remedy.
+
+Avoid tokenistic smiling crowds, generic connected-dot networks, a globe, a shield or a technology-platform sales aesthetic. Show interdependence without implying that participation is compulsory.
+
+Footer line: “Adoption follows value. Trust grows when contribution is respected and useful.”
+
+Ensure all text is exact, legible and spelled correctly.
