@@ -47,7 +47,7 @@ onBeforeUnmount(() => {
     <div v-if="isOpen" :aria-label="alt" aria-modal="true" class="article-infographic-modal" role="dialog"
          @click.self="closeModal">
       <div class="article-infographic-modal__content">
-        <button aria-label="Close infographic" class="article-infographic-modal__close" type="button"
+        <button aria-label="Close" class="article-infographic-modal__close" type="button"
                 @click="closeModal">×
         </button>
         <img :alt="alt" :src="src" class="article-infographic-modal__image" />
@@ -81,7 +81,7 @@ onBeforeUnmount(() => {
 .article-infographic:hover,
 .article-infographic:focus-visible {
   border-color: var(--vp-c-brand-2);
-  box-shadow: 0 10px 24px rgba(24, 52, 47, .12);
+  box-shadow: 0 10px 24px var(--site-shadow);
   transform: translateY(-2px);
 }
 
@@ -112,11 +112,7 @@ onBeforeUnmount(() => {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: rgba(15, 26, 24, .78);
-}
-
-:global(html.infographic-modal-open) {
-  overflow: hidden;
+  background: var(--site-overlay);
 }
 
 .article-infographic-modal__content {
@@ -127,7 +123,7 @@ onBeforeUnmount(() => {
   max-height: calc(100vh - 48px);
   padding: 18px;
   background: var(--vp-c-bg);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, .28);
+  box-shadow: 0 20px 60px var(--site-shadow);
 }
 
 .article-infographic-modal__image {

@@ -64,7 +64,7 @@ onBeforeUnmount(() => {
         <button :aria-label="`Enlarge ${item.alt}`" class="library-gallery__preview" type="button" @click="open(index)">
           <span class="library-gallery__number">{{ item.number }}</span>
           <img :alt="item.alt" :src="item.image" loading="lazy" />
-          <span class="library-gallery__expand">View infographic <span aria-hidden="true">↗</span></span>
+          <span class="library-gallery__expand">View Summary<span aria-hidden="true">↗</span></span>
         </button>
         <div class="library-gallery__copy">
           <h3>{{ item.title }}</h3>
@@ -144,7 +144,7 @@ onBeforeUnmount(() => {
   display: block;
   padding: 18px 18px 0;
   border: 0;
-  background: #eeece3;
+  background: var(--site-image-frame);
   text-align: left;
   cursor: pointer;
 }
@@ -231,11 +231,7 @@ onBeforeUnmount(() => {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: rgba(15, 26, 24, .82);
-}
-
-:global(html.library-gallery-open) {
-  overflow: hidden;
+  background: var(--site-overlay);
 }
 
 .library-gallery__modal-content {
@@ -246,7 +242,7 @@ onBeforeUnmount(() => {
   max-height: calc(100vh - 48px);
   padding: 20px;
   background: var(--vp-c-bg);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, .3);
+  box-shadow: 0 20px 60px var(--site-shadow);
 }
 
 .library-gallery__close {
