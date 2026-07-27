@@ -19,8 +19,7 @@ export default defineConfig({
       { text: 'The Code', link: '/code/' },
       { text: 'Framework', link: '/framework' },
       { text: 'Implementation', link: '/implementation' },
-      { text: 'Library', link: '/library' },
-      { text: 'Licence', link: '/licence' }
+      { text: 'Summary papers', link: '/summary-papers' },
     ],
     sidebar: {
       '/articles/': [
@@ -56,7 +55,7 @@ export default defineConfig({
     socialLinks: [],
     footer: {
       message: 'A discussion framework for transparent and traceable labour supply chains.',
-      copyright: '© The Labour Transparency Project · Content: CC BY-NC 4.0'
+      copyright: '© The Labour Transparency Project · <a href="/licence">Content: CC BY-NC 4.0</a>'
     },
     search: { provider: 'local' }
   }

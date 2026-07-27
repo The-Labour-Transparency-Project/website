@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: Read the Code
       link: /code/
+    - theme: alt
+      text: Summary papers
+      link: /summary-papers
 
 features:
   - title: A shared standard
@@ -43,4 +46,4 @@ This is not a proposal for a single centralised platform. It is a standards-led 
 - [Why this initiative matters](./initiative.md)
 - [The ten rules of the Labour Transparency Code](./code/ten-rules.md)
 - [A practical path to implementation](./implementation.md)
-- [Browse the library of summary papers](./library.md)
+- [Browse the summary papers](summary-papers.md)

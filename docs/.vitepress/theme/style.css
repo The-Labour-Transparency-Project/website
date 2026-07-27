@@ -65,7 +65,7 @@
 
 .VPNavBar { background: var(--site-nav-bg); backdrop-filter: blur(12px); }
 .VPNavBar.has-sidebar .content { background: var(--site-nav-bg); }
-html.infographic-modal-open, html.library-gallery-open { overflow: hidden; }
+html.infographic-modal-open, html.summary-papers-gallery-open { overflow: hidden; }
 .VPHomeHero { padding: 100px 24px 74px; }
 .VPHomeHero .name { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -0.055em; line-height: .94; }
 .VPHomeHero .text { max-width: 720px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.9rem, 4vw, 3.25rem); line-height: 1.08; color: var(--vp-c-text-1); }

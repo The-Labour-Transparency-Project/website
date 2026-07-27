@@ -74,11 +74,10 @@ articles:
     alt: 'Participation Needs Incentives'
 ---
 
-# Library 
+# Summary papers
 
 These summary papers establish the core ideas behind The Labour Transparency Project. Together they move from the visibility gap in workforce relationships, through assurance, trust, worker participation and privacy, to the governance, incident-response and adoption conditions needed for a durable system. We've written them to be short and digestable quickly.
 
 Read them alongside the [initiative](./initiative.md), [framework](./framework.md), [Labour Transparency Code](./code/index.md) and [implementation](./implementation.md) pages. Those pages set out the project; these papers explore the reasoning behind it.
 
-<!--suppress HtmlUnknownTag -->
-<LibraryInfographicGallery></LibraryInfographicGallery>
+<!--suppress HtmlUnknownTag --><SummaryPapersGallery></SummaryPapersGallery>

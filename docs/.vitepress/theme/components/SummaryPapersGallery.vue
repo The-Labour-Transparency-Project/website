@@ -19,13 +19,13 @@ const selectedArticle = computed(() => selected.value === null ? null : articles
 
 function open(index: number) {
   selected.value = index
-  document.documentElement.classList.add('library-gallery-open')
-  nextTick(() => document.querySelector<HTMLButtonElement>('.library-gallery__close')?.focus())
+  document.documentElement.classList.add('summary-papers-gallery-open')
+  nextTick(() => document.querySelector<HTMLButtonElement>('.summary-papers-gallery__close')?.focus())
 }
 
 function close() {
   selected.value = null
-  document.documentElement.classList.remove('library-gallery-open')
+  document.documentElement.classList.remove('summary-papers-gallery-open')
 }
 
 function move(amount: number) {
@@ -43,25 +43,25 @@ function handleKeydown(event: KeyboardEvent) {
 onMounted(() => window.addEventListener('keydown', handleKeydown))
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleKeydown)
-  document.documentElement.classList.remove('library-gallery-open')
+  document.documentElement.classList.remove('summary-papers-gallery-open')
 })
 </script>
 
 <template>
-  <section aria-labelledby="infographic-gallery-title" class="library-gallery">
-    <div class="library-gallery__intro">
-      <p class="library-gallery__hint">Select a summary to enlarge it. Use the arrows or your keyboard to move between
+  <section aria-labelledby="infographic-gallery-title" class="summary-papers-gallery">
+    <div class="summary-papers-gallery__intro">
+      <p class="summary-papers-gallery__hint">Select a summary to enlarge it. Use the arrows or your keyboard to move between
         papers.</p>
     </div>
 
-    <div class="library-gallery__grid">
-      <article v-for="(item, index) in articles" :key="item.number" class="library-gallery__card">
-        <button :aria-label="`Enlarge ${item.alt}`" class="library-gallery__preview" type="button" @click="open(index)">
-          <span class="library-gallery__number">{{ item.number }}</span>
+    <div class="summary-papers-gallery__grid">
+      <article v-for="(item, index) in articles" :key="item.number" class="summary-papers-gallery__card">
+        <button :aria-label="`Enlarge ${item.alt}`" class="summary-papers-gallery__preview" type="button" @click="open(index)">
+          <span class="summary-papers-gallery__number">{{ item.number }}</span>
           <img :alt="item.alt" :src="item.image" loading="lazy" />
-          <span class="library-gallery__expand">View Summary<span aria-hidden="true">↗</span></span>
+          <span class="summary-papers-gallery__expand">View Summary<span aria-hidden="true">↗</span></span>
         </button>
-        <div class="library-gallery__copy">
+        <div class="summary-papers-gallery__copy">
           <h3>{{ item.title }}</h3>
           <p>{{ item.summary }}</p>
           <a :href="item.article">Read the paper <span aria-hidden="true">→</span></a>
@@ -70,16 +70,16 @@ onBeforeUnmount(() => {
     </div>
 
     <Teleport to="body">
-      <div v-if="selectedArticle" :aria-label="selectedArticle.alt" aria-modal="true" class="library-gallery__modal"
+      <div v-if="selectedArticle" :aria-label="selectedArticle.alt" aria-modal="true" class="summary-papers-gallery__modal"
            role="dialog" @click.self="close">
-        <div class="library-gallery__modal-content">
-          <button aria-label="Close infographic" class="library-gallery__close" type="button" @click="close">×</button>
-          <div class="library-gallery__modal-topline">
+        <div class="summary-papers-gallery__modal-content">
+          <button aria-label="Close infographic" class="summary-papers-gallery__close" type="button" @click="close">×</button>
+          <div class="summary-papers-gallery__modal-topline">
             <span>{{ selectedArticle.number }} / {{ articles.length }}</span>
             <span>Preview</span>
           </div>
-          <img :alt="selectedArticle.alt" :src="selectedArticle.image" class="library-gallery__modal-image" />
-          <div class="library-gallery__modal-footer">
+          <img :alt="selectedArticle.alt" :src="selectedArticle.image" class="summary-papers-gallery__modal-image" />
+          <div class="summary-papers-gallery__modal-footer">
             <button aria-label="Previous infographic" type="button" @click="move(-1)">← <span>Previous</span></button>
             <a :href="selectedArticle.article">Read the paper <span aria-hidden="true">→</span></a>
             <button aria-label="Next infographic" type="button" @click="move(1)"><span>Next</span> →</button>
@@ -91,11 +91,11 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
-.library-gallery {
+.summary-papers-gallery {
   margin: 52px 0 68px;
 }
 
-.library-gallery__intro {
+.summary-papers-gallery__intro {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -105,14 +105,14 @@ onBeforeUnmount(() => {
   border-top: 1px solid var(--vp-c-divider);
 }
 
-.library-gallery h2 {
+.summary-papers-gallery h2 {
   margin: 0;
   border: 0;
   padding: 0;
   font-size: clamp(1.8rem, 4vw, 2.5rem);
 }
 
-.library-gallery__hint {
+.summary-papers-gallery__hint {
   max-width: 360px;
   margin: 0 0 4px;
   color: var(--vp-c-text-2);
@@ -120,13 +120,13 @@ onBeforeUnmount(() => {
   line-height: 1.55;
 }
 
-.library-gallery__grid {
+.summary-papers-gallery__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 
-.library-gallery__card {
+.summary-papers-gallery__card {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -134,7 +134,7 @@ onBeforeUnmount(() => {
   background: var(--vp-c-bg-elv);
 }
 
-.library-gallery__preview {
+.summary-papers-gallery__preview {
   position: relative;
   display: block;
   padding: 18px 18px 0;
@@ -144,7 +144,7 @@ onBeforeUnmount(() => {
   cursor: pointer;
 }
 
-.library-gallery__preview img {
+.summary-papers-gallery__preview img {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -153,16 +153,16 @@ onBeforeUnmount(() => {
   transition: transform .25s ease;
 }
 
-.library-gallery__preview:hover img, .library-gallery__preview:focus-visible img {
+.summary-papers-gallery__preview:hover img, .summary-papers-gallery__preview:focus-visible img {
   transform: scale(1.025);
 }
 
-.library-gallery__preview:focus-visible {
+.summary-papers-gallery__preview:focus-visible {
   outline: 3px solid var(--vp-c-brand-3);
   outline-offset: -3px;
 }
 
-.library-gallery__number {
+.summary-papers-gallery__number {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -175,7 +175,7 @@ onBeforeUnmount(() => {
   letter-spacing: .08em;
 }
 
-.library-gallery__expand {
+.summary-papers-gallery__expand {
   display: block;
   padding: 11px 0 13px;
   color: var(--vp-c-brand-1);
@@ -185,14 +185,14 @@ onBeforeUnmount(() => {
   text-transform: uppercase;
 }
 
-.library-gallery__copy {
+.summary-papers-gallery__copy {
   display: flex;
   flex: 1;
   flex-direction: column;
   padding: 18px 20px 20px;
 }
 
-.library-gallery__copy h3 {
+.summary-papers-gallery__copy h3 {
   margin: 0 0 9px;
   color: var(--vp-c-text-1);
   font-family: Georgia, 'Times New Roman', serif;
@@ -200,14 +200,14 @@ onBeforeUnmount(() => {
   line-height: 1.16;
 }
 
-.library-gallery__copy p {
+.summary-papers-gallery__copy p {
   margin: 0 0 16px;
   color: var(--vp-c-text-2);
   font-size: .9rem;
   line-height: 1.5;
 }
 
-.library-gallery__copy a, .library-gallery__modal-footer a {
+.summary-papers-gallery__copy a, .summary-papers-gallery__modal-footer a {
   margin-top: auto;
   color: var(--vp-c-brand-1);
   font-size: .8rem;
@@ -215,11 +215,11 @@ onBeforeUnmount(() => {
   text-decoration: none;
 }
 
-.library-gallery__copy a:hover, .library-gallery__modal-footer a:hover {
+.summary-papers-gallery__copy a:hover, .summary-papers-gallery__modal-footer a:hover {
   text-decoration: underline;
 }
 
-.library-gallery__modal {
+.summary-papers-gallery__modal {
   position: fixed;
   z-index: 100;
   inset: 0;
@@ -229,7 +229,7 @@ onBeforeUnmount(() => {
   background: var(--site-overlay);
 }
 
-.library-gallery__modal-content {
+.summary-papers-gallery__modal-content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -240,7 +240,7 @@ onBeforeUnmount(() => {
   box-shadow: 0 20px 60px var(--site-shadow);
 }
 
-.library-gallery__close {
+.summary-papers-gallery__close {
   position: absolute;
   z-index: 1;
   top: 8px;
@@ -256,7 +256,7 @@ onBeforeUnmount(() => {
   cursor: pointer;
 }
 
-.library-gallery__modal-topline {
+.summary-papers-gallery__modal-topline {
   display: flex;
   justify-content: space-between;
   margin: 0 50px 14px 2px;
@@ -267,14 +267,14 @@ onBeforeUnmount(() => {
   text-transform: uppercase;
 }
 
-.library-gallery__modal-image {
+.summary-papers-gallery__modal-image {
   display: block;
   width: 100%;
   max-height: calc(100vh - 152px);
   object-fit: contain;
 }
 
-.library-gallery__modal-footer {
+.summary-papers-gallery__modal-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -282,7 +282,7 @@ onBeforeUnmount(() => {
   padding: 16px 2px 0;
 }
 
-.library-gallery__modal-footer button {
+.summary-papers-gallery__modal-footer button {
   border: 0;
   background: transparent;
   color: var(--vp-c-text-2);
@@ -291,40 +291,41 @@ onBeforeUnmount(() => {
   cursor: pointer;
 }
 
-.library-gallery__modal-footer button:hover, .library-gallery__close:hover {
+.summary-papers-gallery__modal-footer button:hover, .summary-papers-gallery__close:hover {
   color: var(--vp-c-brand-1);
 }
 
 @media (max-width: 900px) {
-  .library-gallery__grid {
+  .summary-papers-gallery__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 640px) {
-  .library-gallery__intro {
+  .summary-papers-gallery__intro {
     display: block;
   }
 
-  .library-gallery__hint {
+  .summary-papers-gallery__hint {
     margin-top: 12px;
   }
 
-  .library-gallery__grid {
+  .summary-papers-gallery__grid {
     grid-template-columns: 1fr;
   }
 
-  .library-gallery__modal {
+  .summary-papers-gallery__modal {
     padding: 12px;
   }
 
-  .library-gallery__modal-content {
+  .summary-papers-gallery__modal-content {
     max-height: calc(100vh - 24px);
     padding: 12px;
   }
 
-  .library-gallery__modal-footer span {
+  .summary-papers-gallery__modal-footer span {
     display: none;
   }
 }
 </style>
+
