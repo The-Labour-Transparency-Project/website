@@ -50,10 +50,6 @@ onBeforeUnmount(() => {
 <template>
   <section aria-labelledby="infographic-gallery-title" class="library-gallery">
     <div class="library-gallery__intro">
-      <div>
-        <p class="eyebrow">Visual index</p>
-        <h2 id="infographic-gallery-title">Explore the twelve papers</h2>
-      </div>
       <p class="library-gallery__hint">Select a summary to enlarge it. Use the arrows or your keyboard to move between
         papers.</p>
     </div>
