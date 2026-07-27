@@ -10,19 +10,19 @@ Bring together industry bodies, grower representatives, labour providers, worker
 
 ### 2. Refine the Code
 
-Translate the ten rules into implementable evidence expectations, definitions, roles and a versioned change process.
+Translate the [ten rules](./code/ten-rules.md) into implementable evidence expectations, definitions, roles and a versioned change process.
 
 ### 3. Pilot workforce traceability
 
-Use a limited number of real supply-chain participants to test how worker–employer, provider and worksite relationships can be verified across existing systems.
+Use a limited number of real supply-chain participants to test how worker–employer, provider and worksite relationships can be verified across existing systems. [Labour Supply Chains Are Not Linear](./articles/03-labour-supply-chains-are-not-linear.md) and [Federated Trust](./articles/05-federated-trust.md) provide useful context for this pilot design.
 
 ### 4. Test proportional assurance
 
-Design assurance that uses transparent records to focus effort where risk is higher, while recognising operators that can demonstrate sound systems.
+Design assurance that uses transparent records to focus effort where risk is higher, while recognising operators that can demonstrate sound systems. This is the practical question behind [Assurance Must Be Proportionate](./articles/09-proportionate-assurance.md) and [From Compliance Activity to Assurance Infrastructure](./articles/04-from-compliance-to-assurance-infrastructure.md).
 
 ### 5. Develop the ecosystem
 
-Create clear conformance expectations for auditors, technology providers, worker-reporting channels and investigation providers. Governance can become more independent as the infrastructure and ecosystem mature.
+Create clear conformance expectations for auditors, technology providers, worker-reporting channels and investigation providers. Governance can become more independent as the infrastructure and ecosystem mature. [Participation Needs Incentives](./articles/12-participation-needs-incentives.md) examines why each participant needs practical value in return.
 
 ## Design principles
 
@@ -41,3 +41,9 @@ Create clear conformance expectations for auditors, technology providers, worker
 - How should records be verified, corrected and retained?
 - What interoperability profile is realistic across small and large operators?
 - How can worker voice and complaint channels operate safely alongside formal records?
+
+## Related reading
+
+- [Transparency Must Work for Workers](./articles/07-transparency-must-work-for-workers.md) — safeguards and participation requirements for a worker-centred pilot.
+- [Share Claims, Not Copies](./articles/08-share-claims-not-copies.md) — a privacy-resilient pattern for exchanging evidence.
+- [Containment Is the Practical Value of Visibility](./articles/11-containment-through-visibility.md) — the incident-response value a pilot should be able to demonstrate.

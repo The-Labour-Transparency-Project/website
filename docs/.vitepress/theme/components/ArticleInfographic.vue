@@ -1,13 +1,10 @@
 <script lang="ts" setup>
 import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 
-withDefaults(defineProps<{
+defineProps<{
   src: string
   alt: string
-  label?: string
-}>(), {
-  label: 'Larger'
-})
+}>()
 
 const isOpen = ref(false)
 
@@ -40,7 +37,6 @@ onBeforeUnmount(() => {
 <template>
   <button class="article-infographic" type="button" @click="openModal">
     <img :alt="alt" :src="src" loading="lazy" />
-<!--    <span>{{ label }}</span>-->
   </button>
 
   <Teleport to="body">

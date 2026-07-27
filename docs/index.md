@@ -40,6 +40,7 @@ This is not a proposal for a single centralised platform. It is a standards-led 
 
 <p class="eyebrow">Start here</p>
 
-- [Why this initiative matters](/initiative)
-- [The ten rules of the Labour Transparency Code](/code/ten-rules)
-- [A practical path to implementation](/implementation)
+- [Why this initiative matters](./initiative.md)
+- [The ten rules of the Labour Transparency Code](./code/ten-rules.md)
+- [A practical path to implementation](./implementation.md)
+- [Browse the library of summary papers](./library.md)

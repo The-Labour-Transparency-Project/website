@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useData } from 'vitepress'
 
 type Article = {
@@ -12,9 +12,10 @@ type Article = {
 }
 
 const { frontmatter } = useData()
-const articles = frontmatter.value.articles as Article[]
+const articles = (frontmatter.value.articles ?? []) as Article[]
 
 const selected = ref<number | null>(null)
+const selectedArticle = computed(() => selected.value === null ? null : articles[selected.value] ?? null)
 
 function open(index: number) {
   selected.value = index
@@ -49,12 +50,10 @@ onBeforeUnmount(() => {
 <template>
   <section aria-labelledby="infographic-gallery-title" class="library-gallery">
     <div class="library-gallery__intro">
-      <!--
-            <div>
-              <p class="eyebrow">Visual index</p>
-              <h2 id="infographic-gallery-title">Explore the twelve papers</h2>
-            </div>
-      -->
+      <div>
+        <p class="eyebrow">Visual index</p>
+        <h2 id="infographic-gallery-title">Explore the twelve papers</h2>
+      </div>
       <p class="library-gallery__hint">Select a summary to enlarge it. Use the arrows or your keyboard to move between
         papers.</p>
     </div>
@@ -75,18 +74,18 @@ onBeforeUnmount(() => {
     </div>
 
     <Teleport to="body">
-      <div v-if="selected !== null" :aria-label="articles[selected].alt" aria-modal="true" class="library-gallery__modal"
+      <div v-if="selectedArticle" :aria-label="selectedArticle.alt" aria-modal="true" class="library-gallery__modal"
            role="dialog" @click.self="close">
         <div class="library-gallery__modal-content">
           <button aria-label="Close infographic" class="library-gallery__close" type="button" @click="close">×</button>
           <div class="library-gallery__modal-topline">
-            <span>{{ articles[selected].number }} / 12</span>
+            <span>{{ selectedArticle.number }} / {{ articles.length }}</span>
             <span>Preview</span>
           </div>
-          <img :alt="articles[selected].alt" :src="articles[selected].image" class="library-gallery__modal-image" />
+          <img :alt="selectedArticle.alt" :src="selectedArticle.image" class="library-gallery__modal-image" />
           <div class="library-gallery__modal-footer">
             <button aria-label="Previous infographic" type="button" @click="move(-1)">← <span>Previous</span></button>
-            <a :href="articles[selected].article">Read the paper <span aria-hidden="true">→</span></a>
+            <a :href="selectedArticle.article">Read the paper <span aria-hidden="true">→</span></a>
             <button aria-label="Next infographic" type="button" @click="move(1)"><span>Next</span> →</button>
           </div>
         </div>
